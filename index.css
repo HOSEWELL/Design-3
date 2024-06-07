@@ -1,10 +1,10 @@
 main{
-    padding: 40px 90px;
-    width: 75%;
+    padding: 0px 10em;
+    width: 80%;
 }
 .navbar{
     display: flex;
-    column-gap: 9em;
+    column-gap: 16em;
     padding: 30px;
     font-size: x-large;
     font-weight: 600;
@@ -12,15 +12,19 @@ main{
 }
 .navlinks{
     display: flex;
-    column-gap: 20px;
+    column-gap: 10px;
 }
 .home{
     display: flex;
-    column-gap: 20em;
+    padding: 20px;
+    background-color: rgb(245, 238, 227);
 }
 .home div img{
-    width: 200%;
+    width: 90%;
     
+}
+.homecontent{
+    width: 100%;
 }
 .buttonhome{
     background-color: black;
@@ -33,14 +37,38 @@ text-align: center;
 }
 .picturediv{
     display: flex;
+    column-gap: 4em;
 }
 .div2{
     display: flex;
-    column-gap: 5em;
-
+    width: 95%;
+}
+.div3{
+    display: flex;
+    column-gap: 55em;
+}
+.column1{
+    width: 10%;
+}
+.column2 img{
+    width: 55%;
+    height: 50%;
+}
+.div4{
+    font-size: x-large;
+    display: flex;
+    column-gap: 3em;
+}
+.div4 div span{
+font-weight: bolder;
+font-size: xx-large;
+}
+.div4 div img{
+    width: 150%;
+    border-color: none;
 }
 .photodiv1 img{
-    height: 100%;
+    width: 80%
 }
 .photodiv2 img{
     width: 90%;
@@ -66,13 +94,12 @@ border-color: white;
 }
 .lastdiv{
     display: flex;
-    column-gap: 6em;
+    column-gap: 12em;
     background-color: black;
     color: white;
     padding: 5px;
     list-style: none;
 }
 .copyright span{
-    padding: 80px;
-    text-align: center;
+    padding: 150px;
 }
