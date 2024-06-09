@@ -4,7 +4,7 @@ main{
 }
 .navbar{
     display: flex;
-    column-gap: 16em;
+    column-gap: 12em;
     padding: 30px;
     font-size: x-large;
     font-weight: 600;
@@ -94,12 +94,158 @@ border-color: white;
 }
 .lastdiv{
     display: flex;
-    column-gap: 12em;
+    column-gap: 10em;
     background-color: black;
     color: white;
     padding: 5px;
     list-style: none;
 }
 .copyright span{
-    padding: 150px;
+    padding: 100px;
+}
+
+
+@media screen and (max-width:450px) {
+   main{
+    font-size: xx-large;
+    width: 100%;
+    display: grid;
+    padding: 0px 1px;
+   }
+    .navbar{
+        display: flex;
+        font-size: x-small;
+        column-gap: 3px;
+        padding: 10px;
+    }
+     .homecontent{
+        font-size: medium;
+     }
+    .picturediv{
+        display: grid;
+        width: 20px;
+        align-items: center;
+    }
+    .home{
+        display: grid;
+        width: 87%;
+    }
+    .image1{
+        width: 100%;
+    }
+    .heading1{
+        font-size: medium;
+        justify-content: left;
+    }
+    .div2{
+        display: grid;
+        width: 100%;
+        align-items: center;
+    }
+    .discount{
+        font-size: medium;
+        width: 100%;
+    }
+    .div3{
+        display: grid;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    #chair{
+        width: 300px;
+    }
+    .column2{
+        width: 100%;
+        align-items: center;
+    }
+    .div4{
+        display: grid;
+        font-size: medium;
+    }
+    .imagediv4{
+        width: 65%;
+    }
+    .lastdiv{
+        display: grid;
+        font-size: medium;
+        width: 95%;
+
+    }
+    .copyright{
+        display: grid;
+        font-size: small;
+        padding: 0px;
+    }
+  }
+
+  @media screen and ((min-width:451px) and (max-width:1280px)) {
+    main{
+     font-size: xx-large;
+     width: 100%;
+     display: grid;
+     padding: 0px 1px;
+    }
+     .navbar{
+         display: flex;
+         column-gap: 10em;
+    }
+     .picturediv{
+         display: flex;
+         width: 20px;
+         column-gap: 20px;
+     }
+     .home{
+         display: flex;
+         width: 95%;
+     }
+     .image1{
+         width: 100%;
+     }
+     .heading1{
+         justify-content: left;
+     }
+     .div2{
+         display: flex;
+         width: 98%;
+         align-items: center;
+     }
+     .discount{
+         font-size: medium;
+         width: 100%;
+     }
+     .column2{
+         width: 100%;
+         justify-content: center;
+     }
+     .div4{
+         display: flex;
+         font-size: medium;
+     }
+     .lastdiv{
+         display: flex;
+         font-size: medium;
+         column-gap: 9em;
+ 
+     }
+     .copyright{
+         display: flex;
+         font-size: small;
+         padding: 0px;
+     }
+     .div3{
+        display: flex;
+        column-gap: 13em;
+    }
+    .column1 img{
+        width: 750%;
+        height: 82%;
+    }
+    .column2{
+        display: grid;
+    }
+    .column2 img{
+        width: 100%;
+        height: 60%;
+    }
 }
