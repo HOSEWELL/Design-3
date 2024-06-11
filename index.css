@@ -67,8 +67,22 @@ font-size: xx-large;
     width: 150%;
     border-color: none;
 }
+.photodiv1{
+    position: relative;
+}
+.content{
+    position: absolute;
+    bottom: 1em;
+    left: 8em;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: black;
+}
 .photodiv1 img{
     width: 80%
+}
+.photodiv2{
+    position: relative;
 }
 .photodiv2 img{
     width: 90%;
@@ -94,7 +108,7 @@ border-color: white;
 }
 .lastdiv{
     display: flex;
-    column-gap: 10em;
+    column-gap: 12em;
     background-color: black;
     color: white;
     padding: 5px;
