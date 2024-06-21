@@ -4,8 +4,8 @@ main{
 }
 .navbar{
     display: flex;
-    column-gap: 12em;
-    padding: 30px;
+    justify-content: space-between;
+    padding: 10px;
     font-size: x-large;
     font-weight: 600;
     color: grey;
@@ -16,7 +16,7 @@ main{
 }
 .home{
     display: flex;
-    padding: 20px;
+    padding: 30px;
     background-color: rgb(245, 238, 227);
 }
 .home div img{
